@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Optional">
+      <UniqueIdentifier>{d25d3e4f-adb3-4224-8a33-8dd7d1220f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4a73227e-6401-4b0b-b47e-00b88cd223b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Optional\DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Optional\SDK">
+      <UniqueIdentifier>{ab75a06e-7546-4244-9307-307f3b7a71fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Optional\math">
+      <UniqueIdentifier>{1b2eae31-3120-482b-a597-98f628bfb25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\MainGame">
+      <UniqueIdentifier>{c887e9a5-6da7-455a-9b29-051ae5565321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers">
+      <UniqueIdentifier>{a58702b7-b9f5-4ad3-b415-e88fc6ce009c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Image">
+      <UniqueIdentifier>{6f871acb-9d17-4aca-bd4d-b6d893ef0fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Render">
+      <UniqueIdentifier>{50857958-a448-49ae-b570-f446469cfaa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Camera">
+      <UniqueIdentifier>{8bd46502-94af-48c3-8b44-4173a7fad338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Sound">
+      <UniqueIdentifier>{b4e14db7-0bce-4464-80e2-f4a73d93d247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Scene">
+      <UniqueIdentifier>{18eab99b-3c55-4821-a2fb-46d3ba9554de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Object">
+      <UniqueIdentifier>{f820334a-29e1-4161-9a2a-f5ea4d906778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Input">
+      <UniqueIdentifier>{310d55e1-5c93-4495-935a-d3c676f61ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Game">
+      <UniqueIdentifier>{487f6910-e1ff-4d49-8c7e-c03e10cb2933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects">
+      <UniqueIdentifier>{3a14c26c-2eb2-4008-9dbb-373e32ddb4cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes">
+      <UniqueIdentifier>{b27e19bd-71ae-4084-b4d3-e0ef24a05b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Tilemap">
+      <UniqueIdentifier>{f98891bf-5c3d-40e2-a13e-ca00f7f8d6ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Player">
+      <UniqueIdentifier>{752092a2-4a10-4cce-86d1-9dd4eae9583d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Instant">
+      <UniqueIdentifier>{037a3294-21dd-4acb-82ef-9e9f6c9184b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Enemy">
+      <UniqueIdentifier>{856f579e-41b5-4494-9c0d-12f7b3f549b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Enemy\SizeEnemy">
+      <UniqueIdentifier>{e705679c-c63e-49a5-b4cc-1fedb91fa1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Enemy\SpeedEnemy">
+      <UniqueIdentifier>{367550ec-d1dd-46be-abd1-c784d25e1b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Enemy\FlashEnemy">
+      <UniqueIdentifier>{05eeec26-8004-4724-950d-d67640c4e9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Item">
+      <UniqueIdentifier>{3a430a72-b6c0-4843-91c5-77e0c13e7134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Weapon">
+      <UniqueIdentifier>{1f4258e9-bb12-4f8f-baa3-64a563fb032f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\IngameScene">
+      <UniqueIdentifier>{6b76faf6-7021-4aa2-803a-f2e3a10a0d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\TitleScene">
+      <UniqueIdentifier>{cf9c698f-efa6-4c54-a8d6-696dcba9c6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\Intro">
+      <UniqueIdentifier>{74ad9a6d-84b5-471e-ae4b-572eaa016dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\ScoreScene">
+      <UniqueIdentifier>{b42e290c-45e4-45be-9ac4-8dbdc11b163f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="QixGame.cpp">
+      <Filter>Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKsound.cpp">
+      <Filter>Optional\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKwavefile.cpp">
+      <Filter>Optional\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>Optional\math</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Game\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>Game\Managers\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Game\Managers\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Game\Managers\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Game\Managers\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Game\Managers\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Game\Managers\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Game\Managers\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Game\Managers\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Tilemap.cpp">
+      <Filter>Game\Objects\Tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Instant.cpp">
+      <Filter>Game\Objects\Instant</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game\Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SizeEnemy.cpp">
+      <Filter>Game\Objects\Enemy\SizeEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedEnemy.cpp">
+      <Filter>Game\Objects\Enemy\SpeedEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashEnemy.cpp">
+      <Filter>Game\Objects\Enemy\FlashEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Game\Objects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Game\Objects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>Game\Objects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Game\Objects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameScene1.cpp">
+      <Filter>Game\Scenes\IngameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameScene2.cpp">
+      <Filter>Game\Scenes\IngameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TtileScene.cpp">
+      <Filter>Game\Scenes\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>Game\Scenes\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreScene.cpp">
+      <Filter>Game\Scenes\ScoreScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="QixGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ClInclude Include="stdafx.h">
+      <Filter>Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKsound.h">
+      <Filter>Optional\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKwavefile.h">
+      <Filter>Optional\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Optional\math</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Game\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Game\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>Game\Managers\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Game\Managers\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Game\Managers\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Game\Managers\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Game\Managers\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Game\Managers\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Game\Managers\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Game\Managers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Tilemap.h">
+      <Filter>Game\Objects\Tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Instant.h">
+      <Filter>Game\Objects\Instant</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game\Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="SizeEnemy.h">
+      <Filter>Game\Objects\Enemy\SizeEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedEnemy.h">
+      <Filter>Game\Objects\Enemy\SpeedEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashEnemy.h">
+      <Filter>Game\Objects\Enemy\FlashEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Game\Objects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Game\Objects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>Game\Objects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Game\Objects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameScene1.h">
+      <Filter>Game\Scenes\IngameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameScene2.h">
+      <Filter>Game\Scenes\IngameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TtileScene.h">
+      <Filter>Game\Scenes\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Game\Scenes\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreScene.h">
+      <Filter>Game\Scenes\ScoreScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
